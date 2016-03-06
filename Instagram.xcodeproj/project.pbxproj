@@ -13,6 +13,7 @@
 		615C4CD21C86A23C00BA0110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615C4CD11C86A23C00BA0110 /* Assets.xcassets */; };
 		615C4CD51C86A23C00BA0110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615C4CD31C86A23C00BA0110 /* LaunchScreen.storyboard */; };
 		6169D2C61C8BD20700EF4819 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169D2C51C8BD20700EF4819 /* LoginViewController.swift */; };
+		6169D2C81C8BDDA100EF4819 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169D2C71C8BDDA100EF4819 /* HomeViewController.swift */; };
 		F58F9A025E0CB56879B1C8C2 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBD84F72CB9ADCA4795522 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		615C4CD41C86A23C00BA0110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		615C4CD61C86A23C00BA0110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6169D2C51C8BD20700EF4819 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6169D2C71C8BDDA100EF4819 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F0FC5997E8EA5DCAB3961096 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				615C4CD31C86A23C00BA0110 /* LaunchScreen.storyboard */,
 				615C4CD61C86A23C00BA0110 /* Info.plist */,
 				6169D2C51C8BD20700EF4819 /* LoginViewController.swift */,
+				6169D2C71C8BDDA100EF4819 /* HomeViewController.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				6169D2C61C8BD20700EF4819 /* LoginViewController.swift in Sources */,
 				615C4CCD1C86A23C00BA0110 /* ViewController.swift in Sources */,
 				615C4CCB1C86A23C00BA0110 /* AppDelegate.swift in Sources */,
+				6169D2C81C8BDDA100EF4819 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

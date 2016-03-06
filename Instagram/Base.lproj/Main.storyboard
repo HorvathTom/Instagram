@@ -29,7 +29,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-dH-gvf">
                                 <rect key="frame" x="60" y="240" width="200" height="30"/>
-                                <state key="normal" title="Sign In"/>
+                                <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKW-iu-ibX"/>
                                 </connections>
@@ -40,10 +40,6 @@
                                 <connections>
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddU-8j-U5D"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-iy-OB6">
-                                <rect key="frame" x="70" y="330" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -59,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="346"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="LvG-1c-u1a">
             <objects>
-                <viewController id="sDL-5Z-yvm" sceneMemberID="viewController">
+                <viewController id="sDL-5Z-yvm" customClass="HomeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kEo-YR-VFI"/>
                         <viewControllerLayoutGuide type="bottom" id="dgy-z3-SfV"/>
@@ -70,6 +66,15 @@
                     <view key="view" contentMode="scaleToFill" id="tb3-85-Om6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2By-96-7ZH">
+                                <rect key="frame" x="147" y="246" width="48" height="30"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="onLogout:" destination="sDL-5Z-yvm" eventType="touchUpInside" id="WmE-bA-0ob"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
