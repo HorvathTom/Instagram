@@ -56,6 +56,7 @@ class CaptureViewController: UIViewController, UIImagePickerControllerDelegate, 
                 // Reset Capture tab state
                 self.photoImageView.image = nil
                 self.photoImageView.hidden = true
+                self.captionField.text = ""
                 self.submitButton.hidden = true
                 self.selectPhotoButton.hidden = false
             
