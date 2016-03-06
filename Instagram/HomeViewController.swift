@@ -16,12 +16,6 @@ class HomeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func onLogout(sender: AnyObject) {
-        PFUser.logOut()
-    
-        self.dismissViewControllerAnimated(true, completion: {})
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
